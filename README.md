@@ -2,24 +2,19 @@ Moore-Lewis Selection for Domain Adaptation with KenLM Scripts
 
 Step 1:
 
-Clone this repo
-You'll need to change variables for each of these steps in the moore_lewis.sh file
-Start with changing SCRIPTS_DIR to be the location of this repo
+Clone this repo. You'll need to change variables for each of these steps in the moore_lewis.sh file. Start with changing SCRIPTS_DIR to be the location of this repo.
 
 Step 2:
 
-Install kenlm (https://github.com/kpu/kenlm)
-Change KENLM_DIR to be the location of the build directory of your installation
+Install kenlm (https://github.com/kpu/kenlm). Change KENLM_DIR to be the location of the build directory of your installation.
 
 Step 3:
 
-Make a directory for your output
-Change OUTPUT_DIR to this path
+Make a directory for your output. Change OUTPUT_DIR to this path.
 
 Step 4:
 
-Set SRC, TGT, and DOMAIN
-Set INDOMAIN_DATA to the path for your in domain data and FULL_CRAWLED_DATA to the large dataset you'd like to select from. The script assumes your data ends with .$SRC, .$TGT and you only specify the path up to this point, so you may need to change paths if this structure doesn't hold.
+Set SRC, TGT, and DOMAIN. Set INDOMAIN_DATA to the path for your in domain data and FULL_CRAWLED_DATA to the large dataset you'd like to select from. The script assumes your data ends with .$SRC, .$TGT and you only specify the path up to this point, so you may need to change paths if this structure doesn't hold.
 
 Step 5:
 
